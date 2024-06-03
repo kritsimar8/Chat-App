@@ -12,7 +12,7 @@ const sidebar = () => {
        <Conversations/>
       <LogoutButton/> 
     </div>
-  )
-}
+  );
+};
 
 export default sidebar
