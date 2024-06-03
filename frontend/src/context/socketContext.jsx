@@ -4,7 +4,7 @@ import io from "socket.io-client"
 
 
 
-export const SocketContext = createContext();
+ const SocketContext = createContext();
 
 
 export const useSocketContext=()=>{
@@ -41,7 +41,7 @@ export const SocketContextProvider=({children})=>{
                 setSocket(null);
             }
         }
-    },[]);
+    },[authUser]);
 
 
 
